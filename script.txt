@@ -1,0 +1,30 @@
+
+
+
+colore
+marca
+modello
+targa
+id 
+volume 1
+volume 2
+optional
+ruote motrici
+carburabte
+materiale interni
+posti passeggeri
+cilindrata
+cavalli
+voto
+recensione
+prezzo
+sconto
+immagine anteprima
+video recensione
+luogo di ritiro
+consumi
+airbag
+porte
+luci
+
+
