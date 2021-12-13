@@ -20,7 +20,7 @@
 
 10) Numero passeggeri: "4" |------> TINYINT -  NULL
 
-11) Cilindrata: "1800" |------> SMALLINT - NOTNULL
+11) Cilindrata: "1800" |------> VARCHAR(4) - NULL
 
 12) Cavalli motore: "150" |------> SMALLINT - NULL
 
@@ -28,7 +28,7 @@
 
 14) Recensione: "Lorem100" |------> TEXT - NULL
 
-15) Prezzo: "40,000" |------> MEDIUMINT - NOTNULL
+15) Prezzo: "40,000" |------> DECIMAL(8,2) - NULL
 
 16) Immagine di anteprima: "/car/car_img_1.jpg" |------> VARCHAR(255) - NULL
 
