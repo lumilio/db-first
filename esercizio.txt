@@ -1,34 +1,47 @@
 
 
-1) ID |------> BIGINT - PRIMARY KEY, AUTO INCREMENT, UNIQUE, NOTNULL
-2) Colore |------> BIGINT - PRIMARY KEY, AUTO INCREMENT, UNIQUE, NOTNULL
+1) ID: "1" |------> BIGINT - PRIMARY KEY, AUTO INCREMENT, UNIQUE, NOTNULL
 
+2) Colore: "Rosso cremisi bolognese" |------> VARCHAR(255) - NULL
 
+3) Targa: "AAA000AAAA" |------> CHAR(10) - NOTNULL, UNIQUE
 
-colore
-marca
-modello
-targa
+4) Marca: "Audi" |------> VARCHAR(255) - NOTNULL
 
-volume 1
-volume 2
-optional
-ruote motrici
-carburabte
-materiale interni
-posti passeggeri
-cilindrata
-cavalli
-voto
-recensione
-prezzo
-sconto
-immagine anteprima
-video recensione
-luogo di ritiro
-consumi
-airbag
-porte
-luci
+5) Volume bagagliaio: "380" |------> SMALLINT - NULL
+
+6) Optional inclusi: "no" |------> TINYINT (vero/falso | 1/0) -  DEFAULT(0)
+
+7) Ruote motrici: "2" |------> TINYINT -  DEFAULT(2)
+
+8) Carburante: "Benzina" |------> VARCHAR(50) - NOTNULL
+
+9) Materiale interni: "Pelle" |------> VARCHAR(255) - NULL
+
+10) Numero passeggeri: "4" |------> TINYINT -  NULL
+
+11) Cilindrata: "1800" |------> SMALLINT - NOTNULL
+
+12) Cavalli motore: "150" |------> SMALLINT - NULL
+
+13) Vautazione: "9.7" |------> FLOAT(2,1) - NULL
+
+14) Recensione: "Lorem100" |------> TEXT - NULL
+
+15) Prezzo: "40,000" |------> MEDIUMINT - NOTNULL
+
+16) Immagine di anteprima: "/car/car_img_1.jpg" |------> VARCHAR(255) - NULL
+
+17) Video di anteprima: "/car/car_video_1.jpg" |------> VARCHAR(255) - NULL
+
+18) Lugo di ritiro: "Bologna, concessionario Piccinini" |------> VARCHAR(255) - NULL
+
+19) Consumo in 100 km: "6,18" |------> FLOAT(2,2) - NULL
+
+20) Airbag inclusi: "si" |------> TINYINT (vero/falso | 1/0) -  DEFAULT(0)
+
+21) Numero portiere: "5" |------> TINYINT -  NULL
+
+22) Luci: "Led 5000k" |------> VARCHAR(255) - NULL
 
 
